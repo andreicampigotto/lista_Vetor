@@ -9,7 +9,9 @@ namespace listaVetor
     {
         public Exercicio02()
         {
-            string[] nomes = new string[10];
+            
+            
+            string[] nomes = new string[9];
             Console.Write("Digite o nome: ");
             string nome = Console.ReadLine();
             nomes [0]= nome;
@@ -50,11 +52,21 @@ namespace listaVetor
             string nome8 = Console.ReadLine();
             nomes[9] = nome8;
 
-            Console.Write("Digite o nome: ");
-            string nome9 = Console.ReadLine();
-            nomes[10] = nome9;
 
 
+            Console.WriteLine(
+                
+"Nomes: " +
+"\n" + nomes[0] + 
+"\n" + nomes[1] + 
+"\n" + nomes[2] + 
+"\n" + nomes[3] + 
+"\n" + nomes[4] + 
+"\n" + nomes[5] + 
+"\n" + nomes[6] + 
+"\n" + nomes[7] + 
+"\n" + nomes[8] + 
+"\n" + nomes[9] );
 
 
 
