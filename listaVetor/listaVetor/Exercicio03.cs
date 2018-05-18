@@ -9,8 +9,8 @@ namespace listaVetor
     {
         public Exercicio03()
         {
-            string[] nomes = new string[6];
-            double[] precos = new double[6];
+            string[] nomes = new string[7];
+            double[] precos = new double[7];
 
             Console.Write("Digite o nome do produto: ");
             nomes[0] = Console.ReadLine();

@@ -10,7 +10,7 @@ namespace listaVetor
         public Exercicio04()
         {
             string disciplina = "";
-            double[] notas = new double[3];
+            double[] notas = new double[4];
 
             Console.Write("Disciplina :");
             disciplina = Console.ReadLine();

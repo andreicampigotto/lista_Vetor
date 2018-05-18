@@ -11,7 +11,7 @@ namespace listaVetor
         {
             
             
-            string[] nomes = new string[9];
+            string[] nomes = new string[10];
             Console.Write("Digite o nome: ");
             string nome = Console.ReadLine();
             nomes [0]= nome;
